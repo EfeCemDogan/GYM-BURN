@@ -1,0 +1,6 @@
+# robots.txt İHS Telekom tarafından oluşturuldu
+User-agent: *
+Disallow: /cgi-bin/
+Allow: *
+Crawl-delay: 5
+Sitemap: http://www.gymburn.com.tr/sitemap.xml

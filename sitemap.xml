@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://www.gymburn.com.tr/</loc>
+  <priority>0.1</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-11-20</lastmod>
+</url>
+<url>
+  <loc>http://www.gymburn.com.tr/about.html</loc>
+  <priority>0.1</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-11-20</lastmod>
+</url>
+<url>
+  <loc>http://www.gymburn.com.tr/details.html</loc>
+  <priority>0.1</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-11-20</lastmod>
+</url>
+<url>
+  <loc>http://www.gymburn.com.tr/contact.html</loc>
+  <priority>0.1</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2023-11-20</lastmod>
+</url>
+</urlset>

@@ -1,0 +1,91 @@
+body {
+    background-color: f2f2f2;
+}
+
+.header-v {
+    background-image: url("/public/assets/images/black.webp");
+    height: 13vh !important;
+}  
+
+/* Contact */
+#contact__a .form-fields {
+    display: grid;
+    grid-template-areas:
+        'name email'
+        'subject phone'
+        'message message'
+        'button button';
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#contact__a .form-fields .name {
+    grid-area: name;
+}
+
+#contact__a .form-fields .email {
+    grid-area: email;
+}
+
+#contact__a .form-fields .phone {
+    grid-area: phone;
+}
+
+#contact__a .form-fields .subject {
+    grid-area: subject;
+}
+
+#contact__a .form-fields .message {
+    grid-area: message;
+    height: 180px;
+}
+
+#contact__a .form-fields .btn-dark {
+    grid-area: button;
+}
+
+#contact__a .form-fields .btn-dark:hover {
+    transition: 0.7s;
+}
+
+#contact__a .form-fields .input {
+    padding: 0.5rem 1rem;
+}
+
+#contact__a .contact-info .card {
+    padding: 10px;
+    align-items: center;
+    position: relative;
+}
+
+
+/* Contact */
+#contact__b .contact-info {
+    text-align: center;
+    cursor: default;
+}
+
+#contact__b .card {
+    padding: 10px;
+    align-items: center;
+    position: relative;
+}
+
+/* carousel */
+.carousel-inner img {
+    max-height: 450px;
+    width: auto;  
+    margin-bottom: 120px !important;
+    object-fit:cover;
+    border-bottom: none;
+}
+
+
+
+/* Footer */
+.btn-icon {
+    width: 2.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+

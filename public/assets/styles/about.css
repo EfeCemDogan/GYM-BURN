@@ -1,0 +1,12 @@
+body {
+    background-color: f2f2f2;
+}
+
+.header-v {
+    background-image: url("/public/assets/images/black.webp");
+    height: 13vh !important;
+}
+
+.footer {
+    padding: 10px;
+}

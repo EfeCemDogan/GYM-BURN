@@ -1,0 +1,115 @@
+/* Color variables */
+:root {
+    --primary: #222831;
+    --skills: #ffc107;
+    --white: #fff;
+}
+
+/* Media Queries */
+
+/* Max width 1080px */
+@media (max-width: 1080px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    #header {
+        height: 30rem!important;
+    }
+    .header-v .content h1 {
+        font-size: 30px!important;
+    }
+    .header-v .content a {
+        font-size: 20px!important;
+    }
+}
+
+/* Max width 940px */
+@media (max-width: 940px) {
+    #header {
+        height: 10rem!important;
+    }
+    .header-v {
+        height: 50vh!important;
+    }
+    .header-v .content h1 {
+        display: none!important;
+    }
+    .header-v .content a {
+        font-size: 10px!important;
+    }
+}
+
+/* Max width 720px */
+@media (max-width: 720px) {
+    #header {
+        height: 10rem!important;
+    }
+    .header-v {
+        height: 50vh!important;
+    }
+    .header-v .content h1 {
+        display: none!important;
+    }
+    .header-v .content a {
+        font-size: 10px!important;
+    }
+    #about__c {
+        display: none!important;
+    }
+    .navbar .navbar-brand {
+        display: none!important;
+    }
+    .navbar .navbar-collapse {
+        justify-content: center!important;
+    }
+    .fixed-bottom {
+        position: relative!important;
+    }
+    #trainings {
+        margin-bottom: 80px!important;
+    }
+}
+
+/* Max width 520px */
+@media (max-width: 520px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1rem!important;
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+    .header-v .content h1 {
+        display: none!important;
+    }
+    .header-v {
+        height: 40vh!important;
+    }
+    .header-v video {
+        display: none!important;
+    }
+    .header-v .content a {
+        font-size: 10px!important;
+    }
+    #contact__a {
+        display: grid!important;
+        .form-fields {
+            grid-template-areas: 
+                'name'
+                'email'
+                'subject'
+                'phone'
+                'message'
+                'button' !important;
+        }
+    }
+}
+
+/* Min width 240px */
+@media (min-width: 240px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row!important;
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: none!important;
+    }
+}
